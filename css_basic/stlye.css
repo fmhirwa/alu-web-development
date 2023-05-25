@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(147,144,194);
+    background: linear-gradient(90deg, rgba(147,144,194,1) 0%, rgba(199,199,214,1) 36%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto
+}
